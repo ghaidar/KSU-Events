@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24EB35F20343D2C0063F958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB35E20343D2C0063F958 /* AppDelegate.swift */; };
+		D24EB36120343D2C0063F958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB36020343D2C0063F958 /* ViewController.swift */; };
+		D24EB36420343D2C0063F958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EB36220343D2C0063F958 /* Main.storyboard */; };
+		D24EB36620343D2C0063F958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24EB36520343D2C0063F958 /* Assets.xcassets */; };
+		D24EB36920343D2C0063F958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EB36720343D2C0063F958 /* LaunchScreen.storyboard */; };
+		D24EB37420343D2D0063F958 /* KSU_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB37320343D2D0063F958 /* KSU_EventsTests.swift */; };
+		D24EB37F20343D2D0063F958 /* KSU_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB37E20343D2D0063F958 /* KSU_EventsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24EB37020343D2D0063F958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24EB35320343D2C0063F958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24EB35A20343D2C0063F958;
+			remoteInfo = "KSU Events";
+		};
+		D24EB37B20343D2D0063F958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24EB35320343D2C0063F958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24EB35A20343D2C0063F958;
+			remoteInfo = "KSU Events";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24EB35B20343D2C0063F958 /* KSU Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KSU Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB35E20343D2C0063F958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24EB36020343D2C0063F958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24EB36320343D2C0063F958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24EB36520343D2C0063F958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24EB36820343D2C0063F958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24EB36A20343D2C0063F958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24EB36F20343D2D0063F958 /* KSU EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KSU EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB37320343D2D0063F958 /* KSU_EventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSU_EventsTests.swift; sourceTree = "<group>"; };
+		D24EB37520343D2D0063F958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24EB37A20343D2D0063F958 /* KSU EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KSU EventsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB37E20343D2D0063F958 /* KSU_EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSU_EventsUITests.swift; sourceTree = "<group>"; };
+		D24EB38020343D2D0063F958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24EB35820343D2C0063F958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB36C20343D2D0063F958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB37720343D2D0063F958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24EB35220343D2C0063F958 = {
+			isa = PBXGroup;
+			children = (
+				D24EB35D20343D2C0063F958 /* KSU Events */,
+				D24EB37220343D2D0063F958 /* KSU EventsTests */,
+				D24EB37D20343D2D0063F958 /* KSU EventsUITests */,
+				D24EB35C20343D2C0063F958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24EB35C20343D2C0063F958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB35B20343D2C0063F958 /* KSU Events.app */,
+				D24EB36F20343D2D0063F958 /* KSU EventsTests.xctest */,
+				D24EB37A20343D2D0063F958 /* KSU EventsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24EB35D20343D2C0063F958 /* KSU Events */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB35E20343D2C0063F958 /* AppDelegate.swift */,
+				D24EB36020343D2C0063F958 /* ViewController.swift */,
+				D24EB36220343D2C0063F958 /* Main.storyboard */,
+				D24EB36520343D2C0063F958 /* Assets.xcassets */,
+				D24EB36720343D2C0063F958 /* LaunchScreen.storyboard */,
+				D24EB36A20343D2C0063F958 /* Info.plist */,
+			);
+			path = "KSU Events";
+			sourceTree = "<group>";
+		};
+		D24EB37220343D2D0063F958 /* KSU EventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB37320343D2D0063F958 /* KSU_EventsTests.swift */,
+				D24EB37520343D2D0063F958 /* Info.plist */,
+			);
+			path = "KSU EventsTests";
+			sourceTree = "<group>";
+		};
+		D24EB37D20343D2D0063F958 /* KSU EventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB37E20343D2D0063F958 /* KSU_EventsUITests.swift */,
+				D24EB38020343D2D0063F958 /* Info.plist */,
+			);
+			path = "KSU EventsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24EB35A20343D2C0063F958 /* KSU Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EB38320343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU Events" */;
+			buildPhases = (
+				D24EB35720343D2C0063F958 /* Sources */,
+				D24EB35820343D2C0063F958 /* Frameworks */,
+				D24EB35920343D2C0063F958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KSU Events";
+			productName = "KSU Events";
+			productReference = D24EB35B20343D2C0063F958 /* KSU Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24EB36E20343D2D0063F958 /* KSU EventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EB38620343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU EventsTests" */;
+			buildPhases = (
+				D24EB36B20343D2D0063F958 /* Sources */,
+				D24EB36C20343D2D0063F958 /* Frameworks */,
+				D24EB36D20343D2D0063F958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24EB37120343D2D0063F958 /* PBXTargetDependency */,
+			);
+			name = "KSU EventsTests";
+			productName = "KSU EventsTests";
+			productReference = D24EB36F20343D2D0063F958 /* KSU EventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24EB37920343D2D0063F958 /* KSU EventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EB38920343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU EventsUITests" */;
+			buildPhases = (
+				D24EB37620343D2D0063F958 /* Sources */,
+				D24EB37720343D2D0063F958 /* Frameworks */,
+				D24EB37820343D2D0063F958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24EB37C20343D2D0063F958 /* PBXTargetDependency */,
+			);
+			name = "KSU EventsUITests";
+			productName = "KSU EventsUITests";
+			productReference = D24EB37A20343D2D0063F958 /* KSU EventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24EB35320343D2C0063F958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Ghaida;
+				TargetAttributes = {
+					D24EB35A20343D2C0063F958 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D24EB36E20343D2D0063F958 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24EB35A20343D2C0063F958;
+					};
+					D24EB37920343D2D0063F958 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D24EB35A20343D2C0063F958;
+					};
+				};
+			};
+			buildConfigurationList = D24EB35620343D2C0063F958 /* Build configuration list for PBXProject "KSU Events" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24EB35220343D2C0063F958;
+			productRefGroup = D24EB35C20343D2C0063F958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24EB35A20343D2C0063F958 /* KSU Events */,
+				D24EB36E20343D2D0063F958 /* KSU EventsTests */,
+				D24EB37920343D2D0063F958 /* KSU EventsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24EB35920343D2C0063F958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB36920343D2C0063F958 /* LaunchScreen.storyboard in Resources */,
+				D24EB36620343D2C0063F958 /* Assets.xcassets in Resources */,
+				D24EB36420343D2C0063F958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB36D20343D2D0063F958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB37820343D2D0063F958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24EB35720343D2C0063F958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB36120343D2C0063F958 /* ViewController.swift in Sources */,
+				D24EB35F20343D2C0063F958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB36B20343D2D0063F958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB37420343D2D0063F958 /* KSU_EventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB37620343D2D0063F958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB37F20343D2D0063F958 /* KSU_EventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24EB37120343D2D0063F958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24EB35A20343D2C0063F958 /* KSU Events */;
+			targetProxy = D24EB37020343D2D0063F958 /* PBXContainerItemProxy */;
+		};
+		D24EB37C20343D2D0063F958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24EB35A20343D2C0063F958 /* KSU Events */;
+			targetProxy = D24EB37B20343D2D0063F958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24EB36220343D2C0063F958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24EB36320343D2C0063F958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24EB36720343D2C0063F958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24EB36820343D2C0063F958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24EB38120343D2D0063F958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24EB38220343D2D0063F958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24EB38420343D2D0063F958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24EB38520343D2D0063F958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D24EB38720343D2D0063F958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSU Events.app/KSU Events";
+			};
+			name = Debug;
+		};
+		D24EB38820343D2D0063F958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSU Events.app/KSU Events";
+			};
+			name = Release;
+		};
+		D24EB38A20343D2D0063F958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KSU Events";
+			};
+			name = Debug;
+		};
+		D24EB38B20343D2D0063F958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KSU EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KSU-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KSU Events";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24EB35620343D2C0063F958 /* Build configuration list for PBXProject "KSU Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB38120343D2D0063F958 /* Debug */,
+				D24EB38220343D2D0063F958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EB38320343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB38420343D2D0063F958 /* Debug */,
+				D24EB38520343D2D0063F958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EB38620343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU EventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB38720343D2D0063F958 /* Debug */,
+				D24EB38820343D2D0063F958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EB38920343D2D0063F958 /* Build configuration list for PBXNativeTarget "KSU EventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB38A20343D2D0063F958 /* Debug */,
+				D24EB38B20343D2D0063F958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24EB35320343D2C0063F958 /* Project object */;
+}
